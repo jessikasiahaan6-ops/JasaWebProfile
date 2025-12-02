@@ -57,7 +57,11 @@ export function Services() {
                 </ul>
               </CardContent>
               <CardFooter>
-                <Button variant="ghost" className="w-full group-hover:text-primary group-hover:bg-primary/5 transition-colors justify-between">
+                <Button 
+                  variant="ghost" 
+                  className="w-full group-hover:text-primary group-hover:bg-primary/5 transition-colors justify-between"
+                  onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+                >
                   Pelajari Lebih Lanjut <ArrowUpRight className="h-4 w-4" />
                 </Button>
               </CardFooter>

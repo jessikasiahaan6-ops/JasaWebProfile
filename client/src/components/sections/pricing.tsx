@@ -94,7 +94,10 @@ export function Pricing() {
                 </ul>
               </CardContent>
               <CardFooter>
-                <Button className={`w-full rounded-full ${plan.popular ? 'bg-primary hover:bg-primary/90' : 'bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 hover:bg-slate-800'}`}>
+                <Button 
+                  className={`w-full rounded-full ${plan.popular ? 'bg-primary hover:bg-primary/90' : 'bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 hover:bg-slate-800'}`}
+                  onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+                >
                   Pilih Paket
                 </Button>
               </CardFooter>

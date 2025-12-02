@@ -40,10 +40,19 @@ export function Hero() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-10">
-            <Button size="lg" className="rounded-full text-base h-12 px-8 shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all">
+            <Button 
+              size="lg" 
+              className="rounded-full text-base h-12 px-8 shadow-lg shadow-primary/25 hover:shadow-primary/40 transition-all"
+              onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+            >
               Konsultasi Gratis <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button variant="outline" size="lg" className="rounded-full text-base h-12 px-8 bg-white/50 backdrop-blur-sm hover:bg-white dark:bg-black/20 dark:hover:bg-black/40">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="rounded-full text-base h-12 px-8 bg-white/50 backdrop-blur-sm hover:bg-white dark:bg-black/20 dark:hover:bg-black/40"
+              onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
+            >
               Lihat Portofolio
             </Button>
           </div>
