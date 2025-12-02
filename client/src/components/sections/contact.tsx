@@ -32,7 +32,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground">WhatsApp</h4>
-                  <p className="text-muted-foreground">+62 812 3456 7890</p>
+                  <p className="text-muted-foreground">+6287761450460</p>
                 </div>
               </div>
               
@@ -42,7 +42,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground">Alamat Studio</h4>
-                  <p className="text-muted-foreground">Jakarta Selatan, Indonesia</p>
+                  <p className="text-muted-foreground">Cikarang Pusat, Indonesia</p>
                 </div>
               </div>
             </div>
