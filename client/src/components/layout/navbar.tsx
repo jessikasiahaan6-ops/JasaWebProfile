@@ -21,6 +21,7 @@ export function Navbar() {
     { name: "Portofolio", href: "#portfolio" },
     { name: "Harga", href: "#pricing" },
     { name: "Kontak", href: "#contact" },
+    { name: "AI Chat", href: "/chat" },
   ];
 
   return (
